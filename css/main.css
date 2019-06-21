@@ -1,0 +1,51 @@
+.progbar{
+    margin: 50px 0 50px 50px;
+    width: 435px;
+}
+.calc {
+    background: #976f6f;
+    padding: 30px 15px;
+    border-radius: 10px;
+    float: left;
+    margin-left: 50px;
+
+}
+.calc td {
+    padding: 5px;
+}
+.calc-display {
+    font: 55px sans-serif;
+    width: 350px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #363636;
+    color: #fff;
+    margin-bottom: 35px;
+    text-align: right;
+}
+.btn {
+    font: 25px sans-serif;
+    width: 85px;
+    height: 50px;
+    text-transform: uppercase;
+    background: #fcfcfc;
+    border: 2px solid #eaeaea;
+    border-radius: 5px;
+    color: #666;
+    padding: 0;
+    outline: 0;
+    transition: all .4s;
+}
+.btn-equal {
+    height: 112px;
+}
+.btn-null {
+    width: 185px;
+}
+.btn:hover {
+    color: #fcfcfc;
+    background: #d45757;
+    border-color: #d45757;
+    cursor: pointer;
+}
